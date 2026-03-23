@@ -1,0 +1,41 @@
+:root{
+    --primary-color: #1e2638;
+    --secondary-color: #5d84da;
+    --accent-color: #475574;
+    --text-color: #fff;
+    --text-accent-color: #bad8f1;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+header{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Header-Name{
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    font-size: clamp(1rem, 5vw, 2rem);
+    color: var(--text-color);
+}
+
+.Header-Buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Header-Btn{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    font-size: clamp(1rem, 5vw, 2rem);
+    color: var(--text-color);
+}
+  
