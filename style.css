@@ -38,4 +38,21 @@ header{
     font-size: clamp(1rem, 5vw, 2rem);
     color: var(--text-color);
 }
+
+.Homepage-Main-Text{
+    font-family: "Rubik", sans-serif;
+    color: var(--text-color);
+    font-size: clamp(1rem, 5vw, 5rem);
+}
+
+.Homepage-Main-Btn{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    border: 0.4rem solid var(--secondary-color);
+    font-size: clamp(1rem, 5vw, 2rem);
+    color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 1rem 1rem;
+}
   
