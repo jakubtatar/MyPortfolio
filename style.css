@@ -39,6 +39,12 @@ header{
     color: var(--text-color);
 }
 
+.Homepage-Main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .Homepage-Main-Text{
     font-family: "Rubik", sans-serif;
     color: var(--text-color);
@@ -54,5 +60,16 @@ header{
     color: var(--secondary-color);
     border-radius: 8px;
     padding: 1rem 1rem;
+}
+
+.Footer-Links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Footer-Img{
+    max-width: clamp(1rem, 5vw, 5rem);
 }
   
