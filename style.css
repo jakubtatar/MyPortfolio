@@ -43,12 +43,26 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+}
+
+.Homepage-Main-Section1{
+    max-width: 1000px;
+}
+
+.Homepage-Img{
+    max-width: 1000px;
 }
 
 .Homepage-Main-Text{
     font-family: "Rubik", sans-serif;
     color: var(--text-color);
     font-size: clamp(1rem, 5vw, 5rem);
+}
+
+.Homepage-Main-Buttons{
+    display: flex;
+    gap: 2rem;
 }
 
 .Homepage-Main-Btn{
@@ -60,6 +74,11 @@ header{
     color: var(--secondary-color);
     border-radius: 8px;
     padding: 1rem 1rem;
+    transition: 0.3s ease;
+}
+
+.Homepage-Main-Btn:hover{
+    transform: translateY(-0.5rem) scale(1.03);
 }
 
 .Footer-Links{
@@ -70,6 +89,12 @@ header{
 }
 
 .Footer-Img{
-    max-width: clamp(1rem, 5vw, 5rem);
+    bottom: 0px;
+    max-width: clamp(1rem, 5vw, 3rem);
+    transition: 0.3s ease;
+}
+
+.Footer-Img:hover{
+    transform: translateY(-0.5rem) scale(1.03);
 }
   
