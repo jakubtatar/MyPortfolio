@@ -37,6 +37,12 @@ header{
     border: none;
     font-size: clamp(1rem, 5vw, 2rem);
     color: var(--text-color);
+    transition: 0.3s ease;
+}
+
+.Header-Btn:hover{
+    color: var(--accent-color);
+    transform: translateY(-0.5rem) scale(1.03);
 }
 
 .Homepage-Main{
@@ -97,4 +103,81 @@ header{
 .Footer-Img:hover{
     transform: translateY(-0.5rem) scale(1.03);
 }
-  
+
+.Portfolio-Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Portfolio-Title{
+    font-family: "Rubik", sans-serif;
+    color: var(--text-color);
+    font-size: clamp(2rem, 5vw, 4rem);
+}
+
+.Portfolio-Projects{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.Project-Card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0.2rem solid var(--accent-color);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.Project-Section1{
+    max-width: 1000px;
+}
+
+.Project-Section2{
+    max-width: 1000px;
+}
+
+.Portfolio-Img{
+    max-width: clamp(30rem, 5vw, 30rem);
+}
+
+.Project-Text{
+    font-family: "Rubik", sans-serif;
+    color: var(--text-color);
+    font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+.Project-Buttons{
+    display: flex;
+    gap: 2rem;
+}
+
+.Portfolio-Main-Btn{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    border: 0.4rem solid var(--secondary-color);
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    transition: 0.3s ease;
+}
+
+.Portfolio-Main-Btn:hover{
+    transform: translateY(-0.5rem) scale(1.03);
+}
+
+.Used-Technologies{
+    font-family: "Rubik", sans-serif;
+    color: var(--text-accent-color);
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    font-weight: 500;
+    background-color: var(--accent-color);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
