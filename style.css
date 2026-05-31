@@ -14,6 +14,9 @@ header{
     text-align: center;
     display: flex;
     justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    background-color: var(--primary-color);
 }
 
 .Header-Name{
@@ -180,4 +183,210 @@ header{
     display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 8px;
+}
+
+.Contact-Main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Contact-Main-Section1{
+    max-width: 1000px;
+}
+
+.Contact-Main-Section2{
+    max-width: 1000px;
+}
+
+.Contact-Main-Text{
+    font-family: "Rubik", sans-serif;
+    color: var(--text-color);
+    font-size: clamp(1rem, 5vw, 5rem);
+}
+
+.Contact-Form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.Contact-Input{
+    font-family: "Rubik", sans-serif;
+    background-color: transparent;
+    border: 0.2rem solid var(--accent-color);
+    color: var(--text-color);
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.Contact-Input:focus{
+    border-color: var(--secondary-color);
+}
+
+.Contact-Textarea{
+    resize: none;
+    height: 150px;
+}
+
+.Contact-Main-Btn{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    border: 0.4rem solid var(--secondary-color);
+    font-size: clamp(1rem, 5vw, 2rem);
+    color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.Contact-Main-Btn:hover{
+    transform: translateY(-0.5rem) scale(1.03);
+}
+
+.Contact-Info-Box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.About-Main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.About-Main-Section1{
+    max-width: 1000px;
+}
+
+.About-Main-Section2{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.About-Img{
+    max-width: 1000px;
+}
+
+.About-Main-Text{
+    font-family: "Rubik", sans-serif;
+    color: var(--text-color);
+    font-size: clamp(1rem, 5vw, 5rem);
+}
+
+.About-Main-Info{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.About-Skills{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.About-Skills-Grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.About-Skill-Tag{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: clamp(0.8rem, 4vw, 1.3rem);
+    color: var(--secondary-color);
+    border: 0.2rem solid var(--secondary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+.Divider{
+    height: 0.2rem;
+    background-color: var(--accent-color);
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.Blog-Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Blog-Title{
+    font-family: "Rubik", sans-serif;
+    color: var(--text-color);
+    font-size: clamp(2rem, 5vw, 4rem);
+}
+
+.Blog-Posts{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.Blog-Card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0.2rem solid var(--accent-color);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.Blog-Section1{
+    max-width: 1000px;
+}
+
+.Blog-Section2{
+    max-width: 1000px;
+}
+
+.Blog-Img{
+    max-width: clamp(10rem, 5vw, 30rem);
+}
+
+.Blog-Text{
+    font-family: "Rubik", sans-serif;
+    color: var(--text-color);
+    font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+.Blog-Date{
+    font-family: "Rubik", sans-serif;
+    color: var(--text-accent-color);
+    font-size: clamp(0.8rem, 4vw, 1.2rem);
+}
+
+.Blog-Buttons{
+    display: flex;
+    gap: 2rem;
+}
+
+.Blog-Main-Btn{
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    border: 0.4rem solid var(--secondary-color);
+    font-size: clamp(1rem, 5vw, 1.5rem);
+    color: var(--secondary-color);
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    transition: 0.3s ease;
+}
+
+.Blog-Main-Btn:hover{
+    transform: translateY(-0.5rem) scale(1.03);
 }
